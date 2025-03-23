@@ -30,7 +30,7 @@ module.exports =(sequelize, DataTypes) => {
 
     Author.associate = models => {
         Author.belongsToMany(models.Comic, {
-            as: 'comica',
+            as: 'comics',
             through: 'comic_authors',
             foreignKey: 'id_author',
             otherKey: 'id_comic',
