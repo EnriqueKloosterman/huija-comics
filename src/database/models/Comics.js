@@ -1,4 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
+    // Definción de las columnas de la tabla 'comics'
     const cols = {
         comic_id: {
             type: DataTypes.STRING,
@@ -11,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
         },   
     }
 
+    // COnfiguración del modelo
     const config = {
         tableName: 'comics',
         paranoid: true,
@@ -18,8 +20,10 @@ module.exports = (sequelize, DataTypes) => {
         underscored: true
     };
 
+    //Definición del modelo 'Comic'
     const Comic = sequelize.define('Comic', cols, config);
-
+    
+    // Definición de las relaciones con otras tablas
     Comic.associate = models => {
         Comic.belongsToMany(models.Author, {
             as: 'authors',
@@ -28,6 +32,13 @@ module.exports = (sequelize, DataTypes) => {
             otherKey: 'id_author',
             timestamps: false
         });
+        Comic.belongsToMany(models.Category, {
+            as: 'categories',
+            through: 'comic_categories',
+            foreignKey: 'id_comic',
+            otherKey: 'id_category',
+            timestamps: false
+        })
         Comic.hasMany(models.Image, {
             as: 'images',
             foreignKey: 'id_comic'
