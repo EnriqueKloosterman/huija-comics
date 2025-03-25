@@ -47,10 +47,10 @@ module.exports = (sequelize, DataTypes) => {
             as: 'publisher',
             foreignKey: 'id_publisher'
         });
-        Comic.belongsTo(models.ComicCollection, {
-            as: 'collection',
-            foreignKey: 'id_collection'
-        });
+        // Comic.belongsTo(models.ComicCollection, {
+        //     as: 'collection',
+        //     foreignKey: 'id_collection'
+        // });
         Comic.hasMany(models.Comments, {
             as: 'comments',
             foreignKey: 'id_comic'

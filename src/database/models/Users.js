@@ -41,15 +41,15 @@ module.exports = (sequelize, DataTypes) => {
     const User = sequelize.define(alias, cols, config);
 
     User.associate = models => {
-        User.hasMany(models.Like, {
+        User.hasMany(models.Likes, {
             as: 'likes',
             foreignKey: 'id_user'
         });
-        User.hasMany(models.Comment, {
+        User.hasMany(models.Comments, {
             as: 'comments',
             foreignKey: 'id_user'
         });
-        User.hasMany(models.Favorite, {
+        User.hasMany(models.Favorites, {
             as: 'favorites',
             foreignKey: 'id_user'
         });

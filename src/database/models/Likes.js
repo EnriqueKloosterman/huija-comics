@@ -1,4 +1,5 @@
 module.exports = (sequelize, DataTypes) =>  {
+    const alias = 'Likes';
     // Definición de las columnas de la tabla 'likes'
     const cols = {
         like_id: {
@@ -25,15 +26,15 @@ module.exports = (sequelize, DataTypes) =>  {
     };
 
     //Definición del modelo 'Likes'
-    const Likes = sequelize.define('Likes', cols, config);
+    const Likes = sequelize.define(alias, cols, config);
 
     // Definición de las relaciones
     Likes.associate = function(models) {
-        Likes.belongsTo(models.Users, {
-            as: 'user',
+        Likes.belongsTo(models.User, {
+            as: 'users',
             foreignKey: 'id_user'
         });
-        Likes.belongsTo(models.Comics, {
+        Likes.belongsTo(models.Comic, {
             as: 'comic',
             foreignKey: 'id_comic'
         });

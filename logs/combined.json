@@ -1,0 +1,7 @@
+
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 14:38:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 14:38:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 14:49:49"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating user: ReferenceError: User is not defined","timestamp":"2025-03-25 14:49:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 15:10:48"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"User created successfully:   freakzoid@gmail.com","timestamp":"2025-03-25 15:10:50"}
