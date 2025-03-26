@@ -5,29 +5,31 @@ const cloudinary = require('../cloudinary/cloudinary.config');
 
 
 function folderToSend(req) {
-    const url = req.originalUrl;
-    const path = req.route.path;
+    const url = req.originalUrl.toLowerCase();
+    const method = req.method.toUpperCase();
 
-    switch(true) {
-        case url.includes('/register'):
-            return 'users'; 
-        case url.includes('/create') && path === '/create' && req.baseUrl.includes('author'):
-            return 'authors';
-        case url.includes('/create') && path === '/create' && req.baseUrl.includes('comic'):
-            return 'comic-pages';
-        case url.includes('/create') && path === '/create' && req.baseUrl.includes('title'):
-            return 'banner';
-        default:
-            throw new Error('No folder specified');
+
+    if (url.includes('/author') && (method === 'POST' || method === 'PATCH')) {
+        return 'authors';
     }
+    if (url.includes('/auth') && (method === 'POST' || method === 'PATCH')) {
+        return 'users';
+    }
+    if (url.includes('/comic') && method === 'POST'  || method === 'PATCH') {
+        return 'comic-pages';
+    }
+    if (url.includes('/title') && method === 'POST'  || method === 'PATCH') {
+        return 'banner';
+    }
+    throw new Error(`No folder specified for URL: ${url} and method: ${method}`);
 }
 
 const storage = new CloudinaryStorage({
     cloudinary: cloudinary, 
     params: {
-        folder: (req) => folderToSend(req),
+        folder: folderToSend,
         format: async (req, file) => {
-            const fileExtension = file.originalname.split('.').pop();
+            const fileExtension = file.originalname.split('.').pop().toLowerCase();
             if(['jpg', 'jpeg', 'png', 'gif','webp'].includes(fileExtension)) {
                 return fileExtension;
             } else {

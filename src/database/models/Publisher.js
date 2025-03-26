@@ -1,4 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
+    const alias = 'Publisher'
     const cols = {
         publisher_id: {
             type: DataTypes.STRING,
@@ -18,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
         underscored: true
     }
 
-    const Publisher = sequelize.define('Publisher', cols, config)
+    const Publisher = sequelize.define(alias, cols, config)
 
     Publisher.associate = models => {
         Publisher.hasMany(models.Comic, {

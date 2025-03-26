@@ -1,4 +1,5 @@
 module.exports =(sequelize, DataTypes) => {
+    const alias = 'Author';
     const cols = {
         author_id: {
             type: DataTypes.STRING,
@@ -26,7 +27,7 @@ module.exports =(sequelize, DataTypes) => {
         underscored: true
     };
 
-    const Author = sequelize.define('Author', cols, config);
+    const Author = sequelize.define(alias, cols, config);
 
     Author.associate = models => {
         Author.belongsToMany(models.Comic, {

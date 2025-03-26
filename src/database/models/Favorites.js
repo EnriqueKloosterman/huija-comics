@@ -1,4 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
+    const alias = 'Favorites';
     // Definición de las columnas de la tabla 'favorites'
     const cols = {
         favorite_id: {
@@ -25,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
     };
 
     // Definición del modelo 'Favorites'
-    const Favorites = sequelize.define('Favorites', cols, config);
+    const Favorites = sequelize.define(alias, cols, config);
 
     // Definiciómn de las relaciones
     Favorites.associate = function(models) {

@@ -17,6 +17,7 @@ sequelize.authenticate()
     
 
 const authRoutes = require('./routes/auth.routes')
+const authorRoutes = require('./routes/author.routes')
 
 const app = express();
 app.use(cors());
@@ -29,6 +30,7 @@ app.use((req, res, next) =>{
 })
 
 app.use('/api/auth', authRoutes)
+app.use('/api/author', authorRoutes)
 
 app.listen(port, () => {
     console.log('You once again have entered the world of survival horror. Good luck! By the way, app is running in port 3000')

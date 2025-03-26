@@ -1,4 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
+    const alias = 'Comic'
     // Definción de las columnas de la tabla 'comics'
     const cols = {
         comic_id: {
@@ -21,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
     };
 
     //Definición del modelo 'Comic'
-    const Comic = sequelize.define('Comic', cols, config);
+    const Comic = sequelize.define(alias, cols, config);
     
     // Definición de las relaciones con otras tablas
     Comic.associate = models => {
@@ -47,10 +48,10 @@ module.exports = (sequelize, DataTypes) => {
             as: 'publisher',
             foreignKey: 'id_publisher'
         });
-        // Comic.belongsTo(models.ComicCollection, {
-        //     as: 'collection',
-        //     foreignKey: 'id_collection'
-        // });
+        Comic.belongsTo(models.ComicsCollection, {
+            as: 'comic_collections',
+            foreignKey: 'id_collection'
+        });
         Comic.hasMany(models.Comments, {
             as: 'comments',
             foreignKey: 'id_comic'

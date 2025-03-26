@@ -1,4 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
+    const alias = 'Comments';
     // Definición de las columnas de la tabla 'comments'
     const cols= {
         comment_id: {
@@ -27,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
         underscored: true
     };
     // Definición del modelo 'Comments'
-    const Comments = sequelize.define('Comments', cols, config);
+    const Comments = sequelize.define(alias, cols, config);
 
     // Definición de las rerlaciones
     Comments.associate = function(models){

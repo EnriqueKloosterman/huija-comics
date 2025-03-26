@@ -1,4 +1,7 @@
 module.exports = (sequelize, DataTypes) => {
+    
+    const alias = 'Category';
+    // Definición de las columnas de la tabla "Categories"
     const cols = {
         category_id: {
             type: DataTypes.STRING,
@@ -11,6 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         }
     };
 
+    // Configuración del modelo
     const config ={
         tableName: 'categories',
         paranoid: true,
@@ -18,8 +22,10 @@ module.exports = (sequelize, DataTypes) => {
         underscored: true
     };
     
-    const Category = sequelize.define('Category', cols, config);
+    // Definición del modelo "Category"
+    const Category = sequelize.define(alias, cols, config);
 
+    // Definición de las relaciones con otras tablas
     Category.associate = models => {
         Category.belongsToMany(models.Comic, {
             as: 'comics',

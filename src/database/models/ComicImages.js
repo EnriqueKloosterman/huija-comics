@@ -1,4 +1,5 @@
 module.exports = (sequelilze, DataTypes) => {
+    const alias = 'Image';
     const cols ={
         images_id: {
             type: DataTypes.STRING,
@@ -22,7 +23,7 @@ module.exports = (sequelilze, DataTypes) => {
         underscored: true
     };
 
-    const Image = sequelilze.define('Image', cols, config);
+    const Image = sequelilze.define(alias,cols, config);
 
     Image.associate = models => {
         Image.belongsTo(models.Comic, {

@@ -1,7 +1,35 @@
-
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 14:38:04"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 14:38:49"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 14:49:49"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating user: ReferenceError: User is not defined","timestamp":"2025-03-25 14:49:51"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-25 15:10:48"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"User created successfully:   freakzoid@gmail.com","timestamp":"2025-03-25 15:10:50"}
+{"label": "Express","level": "\u001b[32minfo\u001b[39m","message": "User created successfully:   freakzoid@gmail.com","timestamp": "2025-03-25 15:10:50"}
+{"label": "Express","level": "\u001b[32minfo\u001b[39m","message": "Request received: POST /api/author/create","timestamp": "2025-03-26 10:06:05"}
+{"label": "Express","level": "\u001b[32minfo\u001b[39m","message": "Author with name Sal Chi Cha created successfully","timestamp": "2025-03-26 10:06:09"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:12:47"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:12:47"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:17:30"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 retrieved successfully","timestamp":"2025-03-26 10:17:30"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:27:56"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:29:28"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:32:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:33:08"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:37:59"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:38:25"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:40:23"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Author with id 4ce1ea0-835f-48c3-84b4-78ab4901c713 not found","timestamp":"2025-03-26 10:40:27"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:40:53"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:40:53"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:41:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 updated successfully","timestamp":"2025-03-26 10:41:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:41:22"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:41:22"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/author/delete/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:41:57"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 soft-deleted successfully","timestamp":"2025-03-26 10:41:57"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:42:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:42:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:42:33"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 not found","timestamp":"2025-03-26 10:42:33"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-26 10:48:58"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"User created successfully: ghost@gmail.com","timestamp":"2025-03-26 10:49:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/create","timestamp":"2025-03-26 10:57:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/create","timestamp":"2025-03-26 10:58:36"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/author/create","timestamp":"2025-03-26 10:58:45"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with name Medio Pelo created successfully","timestamp":"2025-03-26 10:58:52"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:59:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:59:01"}
