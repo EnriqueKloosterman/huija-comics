@@ -33,3 +33,52 @@
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with name Medio Pelo created successfully","timestamp":"2025-03-26 10:58:52"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:59:01"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:59:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-03-27 09:34:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Editorial 01 created successfully","timestamp":"2025-03-27 09:34:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-03-27 09:35:08"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Editorial 02 created successfully","timestamp":"2025-03-27 09:35:08"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/","timestamp":"2025-03-27 09:41:10"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/get","timestamp":"2025-03-27 09:41:14"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 09:41:43"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:41:43"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/046c3d30-1ac7-4730-97f9-1244c24e7c17","timestamp":"2025-03-27 09:49:25"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/046c3d30-1ac7-4730-97f9-1244c24e7c17","timestamp":"2025-03-27 09:52:17"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:52:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 09:52:56"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:52:56"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:53:29"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving publisher: WHERE parameter \"publisher_id\" has invalid \"undefined\" value","timestamp":"2025-03-27 09:53:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:54:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/","timestamp":"2025-03-27 09:54:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:54:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:54:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:55:11"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 09:55:58"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:55:58"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /favicon.ico","timestamp":"2025-03-27 09:55:59"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:00:53"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 successfully","timestamp":"2025-03-27 10:00:53"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/update/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:05:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 updated successfully","timestamp":"2025-03-27 10:05:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/publishers","timestamp":"2025-03-27 10:05:23"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 10:05:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 10:05:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/delete/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:11:23"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/delete/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:11:29"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error deleting publisher: Pubblisher is not defined","timestamp":"2025-03-27 10:11:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/delete/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:12:05"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 deleted successfully","timestamp":"2025-03-27 10:12:05"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/publishers","timestamp":"2025-03-27 10:12:19"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:12:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:12:44"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 not found","timestamp":"2025-03-27 10:12:44"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/create","timestamp":"2025-03-27 10:19:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-03-27 10:19:39"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Editorial 02 created successfully","timestamp":"2025-03-27 10:19:39"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/publishers","timestamp":"2025-03-27 10:19:47"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 10:19:52"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 10:19:52"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/delete/2f915b74-ea4f-4e2b-9084-8da8a2c8bfe6","timestamp":"2025-03-27 10:20:23"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 2f915b74-ea4f-4e2b-9084-8da8a2c8bfe6 deleted successfully","timestamp":"2025-03-27 10:20:23"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 10:20:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 10:20:51"}

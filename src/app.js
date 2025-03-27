@@ -15,9 +15,10 @@ sequelize.authenticate()
         console.error('Unable to connect to the database:', error);
     });
     
-
+// Importacion de rutas
 const authRoutes = require('./routes/auth.routes')
 const authorRoutes = require('./routes/author.routes')
+const publisherRoutes = require('./routes/publisher.routes')
 
 const app = express();
 app.use(cors());
@@ -28,9 +29,10 @@ app.use((req, res, next) =>{
     logeer.info(`Request received: ${req.method} ${req.url}`)
     next()
 })
-
-app.use('/api/auth', authRoutes)
-app.use('/api/author', authorRoutes)
+// RUTAS
+app.use('/api/auth', authRoutes);
+app.use('/api/author', authorRoutes);
+app.use('/api/publisher', publisherRoutes);
 
 app.listen(port, () => {
     console.log('You once again have entered the world of survival horror. Good luck! By the way, app is running in port 3000')

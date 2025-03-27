@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
 
     const config = {
         tableName: 'publishers',
-        pararnoid: true,
+        paranoid: true,
         timestamps: true,
         underscored: true
     }

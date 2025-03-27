@@ -1,1 +1,3 @@
 {"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating user: ReferenceError: User is not defined","timestamp":"2025-03-25 14:49:51"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving publisher: WHERE parameter \"publisher_id\" has invalid \"undefined\" value","timestamp":"2025-03-27 09:53:29"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error deleting publisher: Pubblisher is not defined","timestamp":"2025-03-27 10:11:29"}

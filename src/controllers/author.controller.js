@@ -6,6 +6,7 @@ const bcrypt = require('bcryptjs');
 const logger = require('../utils/logger');
 
 const authorController = {
+    //Crea un nuevo author
     create: async (req, res) => {
         const { author_name, author_bio } = req.body;
         const author_image = req.file.path;
@@ -31,6 +32,7 @@ const authorController = {
             res.status(500).json({message: 'Error creating author'});
         }
     },
+    // Trae todos los autores
     getAllAuthors: async (req, res) => {
         try{
             const authors = await Author.findAll();
@@ -41,6 +43,7 @@ const authorController = {
             res.status(500).json({message: 'Error retrieving authors'});
         }
     },
+    // Trae au un autor por su id
     getAuthorById: async (req, res) => {
         const { author_id } = req.params;
         try{
@@ -56,6 +59,7 @@ const authorController = {
             res.status(500).json({message: 'Error retrieving author'});
         }
     },
+    //Modifica los datos del autor
     updateAuthor: async (req, res) => {
         const { author_id } = req.params;
         const { author_name, author_bio } = req.body;
@@ -78,22 +82,7 @@ const authorController = {
             res.status(500).json({message: 'Error updating author'});
         }
     },
-    // deleteAuthor: async (req, res) => {
-    //     const { author_id } = req.params;
-    //     try{
-    //         const author = await Author.findOne({ where: {author_id}});
-    //         if(!author) {
-    //             logger.warn(`Author with id ${author_id} not found`);
-    //             return res.status(404).json({message: 'Author not found'});
-    //         }
-    //         await Author.destroy({ where: {author_id}});
-    //         logger.info(`Author with id ${author_id} deleted successfully`);
-    //         res.status(200).json({message: 'Author deleted successfully'});
-    //     } catch (error) {
-    //         logger.error(`Error deleting author: ${error.message}`);
-    //         res.status(500).json({message: 'Error deleting author'});
-    //     }
-    // }
+    // Hace un soft delete por medio del id
     deleteAuthor: async (req, res) => {
         const { author_id } = req.params;
         
