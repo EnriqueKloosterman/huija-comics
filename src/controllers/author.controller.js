@@ -2,7 +2,6 @@
 const db  = require('../database/models');
 const Author = db.Author;
 const { v4:uuidv4 } = require('uuid');
-const bcrypt = require('bcryptjs');
 const logger = require('../utils/logger');
 
 const authorController = {

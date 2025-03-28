@@ -82,3 +82,35 @@
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 2f915b74-ea4f-4e2b-9084-8da8a2c8bfe6 deleted successfully","timestamp":"2025-03-27 10:20:23"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 10:20:51"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 10:20:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-03-28 09:20:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-03-28 09:21:09"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category Aventura already exists","timestamp":"2025-03-28 09:21:09"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-03-28 09:25:48"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category Comedia created","timestamp":"2025-03-28 09:25:48"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/","timestamp":"2025-03-28 09:27:05"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:27:14"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 2","timestamp":"2025-03-28 09:27:14"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:33:41"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 retrieved","timestamp":"2025-03-28 09:33:41"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/update/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:45:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 updated","timestamp":"2025-03-28 09:45:56"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/categories","timestamp":"2025-03-28 09:46:06"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:46:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 2","timestamp":"2025-03-28 09:46:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/categories/delete/86c766cb-1190-4c91-8a31-2c5bb7f3eae5%22%22","timestamp":"2025-03-28 09:54:25"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5\"\" not found","timestamp":"2025-03-28 09:54:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/categories/delete/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:54:29"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error deleting category: category_name is not defined","timestamp":"2025-03-28 09:54:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/categories/delete/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:55:04"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 not found","timestamp":"2025-03-28 09:55:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:55:28"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 1","timestamp":"2025-03-28 09:55:28"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:55:34"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 not found","timestamp":"2025-03-28 09:55:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:56:23"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 not found","timestamp":"2025-03-28 09:56:23"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/category/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:56:43"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:56:58"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 1","timestamp":"2025-03-28 09:56:58"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/update/b2a8b16f-30d8-40dd-9d87-b63f9573eae9","timestamp":"2025-03-28 09:58:03"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category b2a8b16f-30d8-40dd-9d87-b63f9573eae9 updated","timestamp":"2025-03-28 09:58:04"}
