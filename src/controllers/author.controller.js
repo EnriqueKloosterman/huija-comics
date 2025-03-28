@@ -28,7 +28,7 @@ const authorController = {
             return res.status(201).json({message: 'Author created successfully'});
         } catch (error) {
             logger.error(`Error creating author: ${error.message}`);
-            res.status(500).json({message: 'Error creating author'});
+            return res.status(500).json({message: 'Error creating author'});
         }
     },
     // Trae todos los autores

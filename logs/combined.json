@@ -114,3 +114,41 @@
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 1","timestamp":"2025-03-28 09:56:58"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/update/b2a8b16f-30d8-40dd-9d87-b63f9573eae9","timestamp":"2025-03-28 09:58:03"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category b2a8b16f-30d8-40dd-9d87-b63f9573eae9 updated","timestamp":"2025-03-28 09:58:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-28 10:21:45"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"User created successfully: krypton@gmail.com","timestamp":"2025-03-28 10:21:48"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-28 10:22:23"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-28 10:22:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collection/create","timestamp":"2025-03-28 17:36:41"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collection/create","timestamp":"2025-03-28 17:37:41"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Patoruzu created successfully","timestamp":"2025-03-28 17:37:47"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collection/create","timestamp":"2025-03-28 17:41:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin created successfully","timestamp":"2025-03-28 17:41:36"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 17:54:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 17:54:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-03-28 17:54:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/f364b58d-f34c-4b6a-908f-0a4a96367b46","timestamp":"2025-03-28 18:04:06"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/f364b58d-f34c-4b6a-908f-0a4a96367b46","timestamp":"2025-03-28 18:05:00"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collection_name is not defined","timestamp":"2025-03-28 18:05:00"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 18:06:38"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-03-28 18:06:38"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:07:15"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collection_name is not defined","timestamp":"2025-03-28 18:07:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 18:08:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-03-28 18:08:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:09:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:09:26"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collecition is not defined","timestamp":"2025-03-28 18:09:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:10:22"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:10:22"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collecition is not defined","timestamp":"2025-03-28 18:10:22"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:11:00"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:11:00"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collection/update/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:20:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin el aviador updated successfully","timestamp":"2025-03-28 18:20:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:21:58"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:21:59"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/update/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:22:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collection/update/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:22:33"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin updated successfully","timestamp":"2025-03-28 18:22:40"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/collection/delete/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:28:03"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection with id ef46bffa-bfd3-4e50-936a-527c8c946742 deleted successfully","timestamp":"2025-03-28 18:28:04"}
