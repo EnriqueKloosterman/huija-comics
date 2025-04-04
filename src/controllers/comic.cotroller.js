@@ -163,5 +163,23 @@ const comicController = {
       res.status(500).json({ message: "Error interno del servidor" });
     }
   },
+  deleteComic: async (req, res) => {
+    const { comic_id } = req.params;
+
+    try{
+      const result = await Comic.destroy({
+        where: { comic_id },
+      });
+      if(!result === 0) {
+        logger.warn('Comic not found.')
+        return res.satuts(404).json({ message: 'Error deleting comic', error: error.message})
+      }
+      logger.info('Comic deleted successfully.')
+      return res.status(200).json({ message: 'Comic deleted successfully.'})
+    } catch {
+      logger.error(`Error deleting comic: ${error.message}`);
+      return res.status(500).json({ message: 'Error deleting comic', error: error.message}) 
+    }
+  }
 };
 module.exports = comicController;

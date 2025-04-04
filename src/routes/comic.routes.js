@@ -5,6 +5,7 @@ const comicController = require('../controllers/comic.cotroller')
 
 router.post('/create', upload.array('image',150), comicController.create);
 router.get('/comics', comicController.getAllComics);
-router.get('/comic/:comic_id', comicController.getComicById)
+router.get('/comic/:comic_id', comicController.getComicById);
+router.delete('/delete/:comic_id', comicController.deleteComic);
 
 module.exports = router;

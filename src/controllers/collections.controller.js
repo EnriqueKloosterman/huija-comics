@@ -58,26 +58,28 @@ const collectionController = {
             return res.status(500).json({ message: 'Error retrieving collection' })
         }
     },
-    //TODO: modificar el Update para que lea la imagen del body y no solo del file.path
     // Update a collection
     updateCollection: async (req, res) => {
         const { collection_id } = req.params
-        const { collection_name, collection_description } = req.body
-        const collection_image = req.file.path
+        const { collection_name, collection_description, collection_image:existingImage } = req.body
+
         try {
             const collection = await ComicsCollection.findOne({ where: { collection_id }});
             if (!collection) {
                 logger.warn(`Collection with id ${collection_id} not found`)
                 return res.status(404).json({ message: 'Collection not found' })
             };
-            await ComicsCollection.update({
+            const updateData = {
                 collection_name,
                 collection_description,
-                collection_image
-            }, { where: { collection_id } });
+                collection_image: existingImage
+            };
+            if(req.file) {
+                updateData.collection_image = req.file.path
+            };
+            await ComicsCollection.update(updateData, { where: { collection_id } });
             logger.info(`Collection ${collection_name} updated successfully`)
             return res.status(200).json({ message: 'Collection updated successfully' })
-
         } catch (error) {
             logger.error(`Error updating collection: ${error}`);
             return res.status(500).json({ message: 'Error updating collection' })

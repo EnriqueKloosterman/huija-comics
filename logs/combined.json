@@ -165,3 +165,28 @@
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comic found successfully in the database.","timestamp":"2025-04-04 09:33:42"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comics","timestamp":"2025-04-04 09:34:05"}
 {"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comics found successfully in the database.","timestamp":"2025-04-04 09:34:05"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comics","timestamp":"2025-04-04 17:12:33"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comics found successfully in the database.","timestamp":"2025-04-04 17:12:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/comic/delete/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-04 17:14:00"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/comic/delete/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-04 17:14:48"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comic deleted successfully.","timestamp":"2025-04-04 17:14:48"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-04 17:15:07"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Comic not found in the database.","timestamp":"2025-04-04 17:15:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comics","timestamp":"2025-04-04 17:15:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comics found successfully in the database.","timestamp":"2025-04-04 17:15:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-04 17:26:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-04 17:26:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/upadate/054e21de-382d-4e9d-9e6c-2be53e28a413?collection_name=Lupin&collection_description=Descripcion%20de%20las%20grandiosas%20aventuras%20del%20aviador%20Lupin,%20edit&collection_image=https://res.cloudinary.com/deumagcgr/image/upload/v1743690894/collection_banner/banner-Lupin_1743690887016.png","timestamp":"2025-04-04 17:30:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/upadate/054e21de-382d-4e9d-9e6c-2be53e28a413","timestamp":"2025-04-04 17:32:58"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collections/upadate/054e21de-382d-4e9d-9e6c-2be53e28a413","timestamp":"2025-04-04 17:33:27"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collections/upadate/054e21de-382d-4e9d-9e6c-2be53e28a413","timestamp":"2025-04-04 17:34:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-04 17:35:19"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-04 17:35:19"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collections/update/054e21de-382d-4e9d-9e6c-2be53e28a413","timestamp":"2025-04-04 17:35:54"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin updated successfully","timestamp":"2025-04-04 17:36:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-04 17:36:14"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-04 17:36:14"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collections/update/054e21de-382d-4e9d-9e6c-2be53e28a413","timestamp":"2025-04-04 17:36:36"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin updated successfully","timestamp":"2025-04-04 17:36:36"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-04 17:36:46"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-04 17:36:46"}
