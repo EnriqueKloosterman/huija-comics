@@ -1,154 +1,167 @@
-{"label": "Express","level": "\u001b[32minfo\u001b[39m","message": "User created successfully:   freakzoid@gmail.com","timestamp": "2025-03-25 15:10:50"}
-{"label": "Express","level": "\u001b[32minfo\u001b[39m","message": "Request received: POST /api/author/create","timestamp": "2025-03-26 10:06:05"}
-{"label": "Express","level": "\u001b[32minfo\u001b[39m","message": "Author with name Sal Chi Cha created successfully","timestamp": "2025-03-26 10:06:09"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:12:47"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:12:47"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:17:30"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 retrieved successfully","timestamp":"2025-03-26 10:17:30"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:27:56"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:29:28"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:32:12"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:33:08"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:37:59"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:38:25"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1ea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:40:23"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Author with id 4ce1ea0-835f-48c3-84b4-78ab4901c713 not found","timestamp":"2025-03-26 10:40:27"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:40:53"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:40:53"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:41:12"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 updated successfully","timestamp":"2025-03-26 10:41:15"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:41:22"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:41:22"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/author/delete/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:41:57"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 soft-deleted successfully","timestamp":"2025-03-26 10:41:57"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:42:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:42:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get/4ce1dea0-835f-48c3-84b4-78ab4901c713","timestamp":"2025-03-26 10:42:33"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Author with id 4ce1dea0-835f-48c3-84b4-78ab4901c713 not found","timestamp":"2025-03-26 10:42:33"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-26 10:48:58"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"User created successfully: ghost@gmail.com","timestamp":"2025-03-26 10:49:01"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/create","timestamp":"2025-03-26 10:57:49"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/create","timestamp":"2025-03-26 10:58:36"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/author/create","timestamp":"2025-03-26 10:58:45"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with name Medio Pelo created successfully","timestamp":"2025-03-26 10:58:52"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/get","timestamp":"2025-03-26 10:59:01"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-03-26 10:59:01"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-03-27 09:34:55"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Editorial 01 created successfully","timestamp":"2025-03-27 09:34:55"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-03-27 09:35:08"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Editorial 02 created successfully","timestamp":"2025-03-27 09:35:08"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/","timestamp":"2025-03-27 09:41:10"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/get","timestamp":"2025-03-27 09:41:14"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 09:41:43"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:41:43"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/046c3d30-1ac7-4730-97f9-1244c24e7c17","timestamp":"2025-03-27 09:49:25"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/046c3d30-1ac7-4730-97f9-1244c24e7c17","timestamp":"2025-03-27 09:52:17"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:52:34"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 09:52:56"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:52:56"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:53:29"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving publisher: WHERE parameter \"publisher_id\" has invalid \"undefined\" value","timestamp":"2025-03-27 09:53:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:54:04"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/","timestamp":"2025-03-27 09:54:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:54:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:54:51"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 09:55:11"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 09:55:58"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 09:55:58"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /favicon.ico","timestamp":"2025-03-27 09:55:59"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:00:53"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 successfully","timestamp":"2025-03-27 10:00:53"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/update/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:05:12"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 updated successfully","timestamp":"2025-03-27 10:05:12"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/publishers","timestamp":"2025-03-27 10:05:23"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 10:05:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 10:05:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/delete/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:11:23"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/delete/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:11:29"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error deleting publisher: Pubblisher is not defined","timestamp":"2025-03-27 10:11:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/delete/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:12:05"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 deleted successfully","timestamp":"2025-03-27 10:12:05"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/publishers","timestamp":"2025-03-27 10:12:19"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:12:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers/3a2a4add-b3ec-41eb-8edc-6056492ac6c4","timestamp":"2025-03-27 10:12:44"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Publisher with id 3a2a4add-b3ec-41eb-8edc-6056492ac6c4 not found","timestamp":"2025-03-27 10:12:44"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/create","timestamp":"2025-03-27 10:19:34"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-03-27 10:19:39"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Editorial 02 created successfully","timestamp":"2025-03-27 10:19:39"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/publishers","timestamp":"2025-03-27 10:19:47"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 10:19:52"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 10:19:52"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/delete/2f915b74-ea4f-4e2b-9084-8da8a2c8bfe6","timestamp":"2025-03-27 10:20:23"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 2f915b74-ea4f-4e2b-9084-8da8a2c8bfe6 deleted successfully","timestamp":"2025-03-27 10:20:23"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-03-27 10:20:51"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-03-27 10:20:51"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-03-28 09:20:15"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-03-28 09:21:09"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category Aventura already exists","timestamp":"2025-03-28 09:21:09"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-03-28 09:25:48"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category Comedia created","timestamp":"2025-03-28 09:25:48"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/","timestamp":"2025-03-28 09:27:05"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:27:14"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 2","timestamp":"2025-03-28 09:27:14"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:33:41"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 retrieved","timestamp":"2025-03-28 09:33:41"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/update/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:45:55"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 updated","timestamp":"2025-03-28 09:45:56"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/categories","timestamp":"2025-03-28 09:46:06"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:46:15"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 2","timestamp":"2025-03-28 09:46:15"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/categories/delete/86c766cb-1190-4c91-8a31-2c5bb7f3eae5%22%22","timestamp":"2025-03-28 09:54:25"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5\"\" not found","timestamp":"2025-03-28 09:54:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/categories/delete/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:54:29"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error deleting category: category_name is not defined","timestamp":"2025-03-28 09:54:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/categories/delete/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:55:04"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 not found","timestamp":"2025-03-28 09:55:04"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:55:28"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 1","timestamp":"2025-03-28 09:55:28"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:55:34"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 not found","timestamp":"2025-03-28 09:55:34"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:56:23"}
-{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"Category 86c766cb-1190-4c91-8a31-2c5bb7f3eae5 not found","timestamp":"2025-03-28 09:56:23"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/category/86c766cb-1190-4c91-8a31-2c5bb7f3eae5","timestamp":"2025-03-28 09:56:43"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-03-28 09:56:58"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 1","timestamp":"2025-03-28 09:56:58"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/update/b2a8b16f-30d8-40dd-9d87-b63f9573eae9","timestamp":"2025-03-28 09:58:03"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category b2a8b16f-30d8-40dd-9d87-b63f9573eae9 updated","timestamp":"2025-03-28 09:58:04"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-28 10:21:45"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"User created successfully: krypton@gmail.com","timestamp":"2025-03-28 10:21:48"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-28 10:22:23"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-03-28 10:22:55"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collection/create","timestamp":"2025-03-28 17:36:41"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collection/create","timestamp":"2025-03-28 17:37:41"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Patoruzu created successfully","timestamp":"2025-03-28 17:37:47"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collection/create","timestamp":"2025-03-28 17:41:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin created successfully","timestamp":"2025-03-28 17:41:36"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 17:54:01"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 17:54:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-03-28 17:54:29"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/f364b58d-f34c-4b6a-908f-0a4a96367b46","timestamp":"2025-03-28 18:04:06"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/f364b58d-f34c-4b6a-908f-0a4a96367b46","timestamp":"2025-03-28 18:05:00"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collection_name is not defined","timestamp":"2025-03-28 18:05:00"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 18:06:38"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-03-28 18:06:38"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:07:15"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collection_name is not defined","timestamp":"2025-03-28 18:07:15"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections","timestamp":"2025-03-28 18:08:07"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-03-28 18:08:07"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:09:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:09:26"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collecition is not defined","timestamp":"2025-03-28 18:09:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:10:22"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:10:22"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collecition is not defined","timestamp":"2025-03-28 18:10:22"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:11:00"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:11:00"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collection/update/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:20:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin el aviador updated successfully","timestamp":"2025-03-28 18:20:34"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/collections/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:21:58"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-03-28 18:21:59"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collection/update/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:22:26"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/collection/update/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:22:33"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin updated successfully","timestamp":"2025-03-28 18:22:40"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/collection/delete/ef46bffa-bfd3-4e50-936a-527c8c946742","timestamp":"2025-03-28 18:28:03"}
-{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection with id ef46bffa-bfd3-4e50-936a-527c8c946742 deleted successfully","timestamp":"2025-03-28 18:28:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/auth/register","timestamp":"2025-04-03 10:36:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"User created successfully: freakzoid@gmail.com","timestamp":"2025-04-03 10:36:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/author/create","timestamp":"2025-04-03 10:38:10"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with name Remplazo created successfully","timestamp":"2025-04-03 10:38:11"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/author/create","timestamp":"2025-04-03 10:39:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with name Escritor 1 created successfully","timestamp":"2025-04-03 10:39:17"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/author/create","timestamp":"2025-04-03 10:39:43"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with name Dibujante 1 created successfully","timestamp":"2025-04-03 10:40:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/auth/authors","timestamp":"2025-04-03 10:40:44"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/authors","timestamp":"2025-04-03 10:40:59"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-04-03 10:40:59"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:41:53"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/author/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:42:43"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 13c371d6-0104-4b39-ade9-e85869ca9837 retrieved successfully","timestamp":"2025-04-03 10:42:43"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:45:02"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:46:33"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:47:24"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:48:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:51:35"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/authors","timestamp":"2025-04-03 10:52:22"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-04-03 10:52:22"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 10:52:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 11:02:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 13c371d6-0104-4b39-ade9-e85869ca9837 updated successfully","timestamp":"2025-04-03 11:02:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PATCH /api/author/update/13c371d6-0104-4b39-ade9-e85869ca9837","timestamp":"2025-04-03 11:02:43"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 13c371d6-0104-4b39-ade9-e85869ca9837 updated successfully","timestamp":"2025-04-03 11:02:45"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/authors","timestamp":"2025-04-03 11:02:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-04-03 11:02:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/author/delete/9af3a786-fc77-4abd-9fce-3993fcb7a4d8","timestamp":"2025-04-03 11:05:27"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Author with id 9af3a786-fc77-4abd-9fce-3993fcb7a4d8 soft-deleted successfully","timestamp":"2025-04-03 11:05:27"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/authors","timestamp":"2025-04-03 11:06:02"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-04-03 11:06:02"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/cteate","timestamp":"2025-04-03 11:10:53"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-04-03 11:11:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category Accion created","timestamp":"2025-04-03 11:11:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-04-03 11:12:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category Aventuras created","timestamp":"2025-04-03 11:12:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/categories/create","timestamp":"2025-04-03 11:12:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category ToDel created","timestamp":"2025-04-03 11:12:29"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-04-03 11:13:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 3","timestamp":"2025-04-03 11:13:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/category/2a1963ce-f1b2-4a42-9023-6d6efa4b75f6","timestamp":"2025-04-03 11:14:27"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 2a1963ce-f1b2-4a42-9023-6d6efa4b75f6 retrieved","timestamp":"2025-04-03 11:14:28"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/categories/update/2a1963ce-f1b2-4a42-9023-6d6efa4b75f6","timestamp":"2025-04-03 11:17:27"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 2a1963ce-f1b2-4a42-9023-6d6efa4b75f6 updated","timestamp":"2025-04-03 11:17:27"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/category/2a1963ce-f1b2-4a42-9023-6d6efa4b75f6","timestamp":"2025-04-03 11:17:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 2a1963ce-f1b2-4a42-9023-6d6efa4b75f6 retrieved","timestamp":"2025-04-03 11:17:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/categories/delete/9208601d-b8f6-4505-be68-cd7244301ccf","timestamp":"2025-04-03 11:20:03"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Category 9208601d-b8f6-4505-be68-cd7244301ccf succesfully deleted","timestamp":"2025-04-03 11:20:03"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-04-03 11:20:40"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 2","timestamp":"2025-04-03 11:20:40"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/create","timestamp":"2025-04-03 11:32:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collections/create","timestamp":"2025-04-03 11:33:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collections/create","timestamp":"2025-04-03 11:34:20"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collections/create","timestamp":"2025-04-03 11:34:47"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Lupin created successfully","timestamp":"2025-04-03 11:34:54"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-03 11:36:31"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-03 11:36:31"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collections/create","timestamp":"2025-04-03 11:37:33"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection Patoruzu created successfully","timestamp":"2025-04-03 11:37:42"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-03 11:38:17"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-03 11:38:17"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collection/054e21de-382d-4e9d-9e6c-2be53e28a413","timestamp":"2025-04-03 11:39:35"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection undefined retrieved successfully","timestamp":"2025-04-03 11:39:35"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/collections/create","timestamp":"2025-04-03 11:40:30"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection TODEL created successfully","timestamp":"2025-04-03 11:40:36"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-03 11:40:45"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-03 11:40:45"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/collections/delete/add44f4f-2113-4181-82f8-257ec4b3a723","timestamp":"2025-04-03 11:41:42"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collection with id add44f4f-2113-4181-82f8-257ec4b3a723 deleted successfully","timestamp":"2025-04-03 11:41:42"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-03 11:41:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-03 11:41:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST //api/publisher/create","timestamp":"2025-04-03 11:49:11"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-04-03 11:49:20"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Fundida created successfully","timestamp":"2025-04-03 11:49:20"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/publisher/create","timestamp":"2025-04-03 11:50:18"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher Micro created successfully","timestamp":"2025-04-03 11:50:18"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-04-03 11:50:52"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-04-03 11:50:52"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publisher/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:51:41"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved publisher with id 6f31bdb7-23f5-4792-9fa8-1431267cc2ad successfully","timestamp":"2025-04-03 11:51:41"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/update/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:53:20"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 6f31bdb7-23f5-4792-9fa8-1431267cc2ad updated successfully","timestamp":"2025-04-03 11:53:20"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publisher/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:53:46"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved publisher with id 6f31bdb7-23f5-4792-9fa8-1431267cc2ad successfully","timestamp":"2025-04-03 11:53:46"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: PUT /api/publisher/update/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:54:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 6f31bdb7-23f5-4792-9fa8-1431267cc2ad updated successfully","timestamp":"2025-04-03 11:54:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publisher/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:54:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved publisher with id 6f31bdb7-23f5-4792-9fa8-1431267cc2ad successfully","timestamp":"2025-04-03 11:54:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /publishers/delete/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:54:53"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-04-03 11:55:18"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-04-03 11:55:18"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /publisher/delete/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:55:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-04-03 11:55:56"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-04-03 11:55:56"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: DELETE /api/publisher/delete/6f31bdb7-23f5-4792-9fa8-1431267cc2ad","timestamp":"2025-04-03 11:56:09"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Publisher with id 6f31bdb7-23f5-4792-9fa8-1431267cc2ad deleted successfully","timestamp":"2025-04-03 11:56:09"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/publisher/publishers","timestamp":"2025-04-03 11:56:13"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Retrieved all publishers successfully","timestamp":"2025-04-03 11:56:13"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/collections/collections","timestamp":"2025-04-03 11:59:08"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Collections retrieved successfully","timestamp":"2025-04-03 11:59:08"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/author/authors","timestamp":"2025-04-03 12:00:42"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors retrieved successfully","timestamp":"2025-04-03 12:00:42"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/categories/categories","timestamp":"2025-04-03 12:02:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Categories retrieved: 2","timestamp":"2025-04-03 12:02:01"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:04:29"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Cannot read properties of undefined (reading 'findAll')","timestamp":"2025-04-03 12:04:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:06:24"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Cannot add or update a child row: a foreign key constraint fails (`huijav2`.`comic_authors`, CONSTRAINT `comic_authors_ibfk_2` FOREIGN KEY (`author_id`) REFERENCES `authors` (`author_id`) ON DELETE CASCADE)","timestamp":"2025-04-03 12:06:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:08:14"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"A comic with the name Titulo 1 already exists","timestamp":"2025-04-03 12:08:35"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:08:51"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Cannot add or update a child row: a foreign key constraint fails (`huijav2`.`comic_authors`, CONSTRAINT `comic_authors_ibfk_2` FOREIGN KEY (`author_id`) REFERENCES `authors` (`author_id`) ON DELETE CASCADE)","timestamp":"2025-04-03 12:09:12"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:15:29"}
+{"label":"Express","level":"\u001b[33mwarn\u001b[39m","message":"A comic with the name Titulo 2 already exists","timestamp":"2025-04-03 12:15:49"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:15:58"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Validation error","timestamp":"2025-04-03 12:16:20"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:19:19"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Validation error","timestamp":"2025-04-03 12:19:39"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:28:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:31:08"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:32:48"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:34:30"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 12:35:40"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 17:47:39"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:11:03"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:17:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:22:51"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:32:10"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:36:06"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:38:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:39:59"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:41:50"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 18:43:26"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-03 18:48:54"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-03 18:49:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-03 18:51:23"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-03 18:52:35"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-03 18:57:35"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 19:12:02"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/38563923-e937-4f2a-91f4-80222d06683d","timestamp":"2025-04-03 19:12:54"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 19:15:34"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 19:17:14"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/fdad5c49-fd60-4f2f-8e3f-3dc44ff59184","timestamp":"2025-04-03 19:20:28"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/fdad5c49-fd60-4f2f-8e3f-3dc44ff59184","timestamp":"2025-04-03 19:22:41"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/fdad5c49-fd60-4f2f-8e3f-3dc44ff59184","timestamp":"2025-04-03 19:23:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-03 19:25:13"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/bdc3dc90-f8b5-48dd-bb5c-95a523ed8296","timestamp":"2025-04-03 19:26:04"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/bdc3dc90-f8b5-48dd-bb5c-95a523ed8296","timestamp":"2025-04-04 09:02:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/bdc3dc90-f8b5-48dd-bb5c-95a523ed8296","timestamp":"2025-04-04 09:04:07"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/bdc3dc90-f8b5-48dd-bb5c-95a523ed8296","timestamp":"2025-04-04 09:05:38"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/bdc3dc90-f8b5-48dd-bb5c-95a523ed8296","timestamp":"2025-04-04 09:07:54"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-04 09:16:13"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comic created successfully in the database.","timestamp":"2025-04-04 09:16:32"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Images stored successfully in the database.","timestamp":"2025-04-04 09:16:32"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Authors and categories associated successfully.","timestamp":"2025-04-04 09:16:32"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: POST /api/comic/create","timestamp":"2025-04-04 09:20:46"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/bdc3dc90-f8b5-48dd-bb5c-95a523ed8296","timestamp":"2025-04-04 09:20:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comic found successfully in the database.","timestamp":"2025-04-04 09:20:55"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comics","timestamp":"2025-04-04 09:25:13"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comics found successfully in the database.","timestamp":"2025-04-04 09:25:13"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-04 09:28:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comic found successfully in the database.","timestamp":"2025-04-04 09:28:15"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comic/4acdb758-5db2-4b0d-8395-5e9069a42658","timestamp":"2025-04-04 09:33:42"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comic found successfully in the database.","timestamp":"2025-04-04 09:33:42"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Request received: GET /api/comic/comics","timestamp":"2025-04-04 09:34:05"}
+{"label":"Express","level":"\u001b[32minfo\u001b[39m","message":"Comics found successfully in the database.","timestamp":"2025-04-04 09:34:05"}

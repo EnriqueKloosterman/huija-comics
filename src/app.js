@@ -21,6 +21,7 @@ const authorRoutes = require('./routes/author.routes');
 const publisherRoutes = require('./routes/publisher.routes');
 const categoriesRoutes = require('./routes/categories.routes');
 const collectionRoutes = require('./routes/collection.routes');
+const comicRoutes = require('./routes/comic.routes');
 
 const app = express();
 app.use(cors());
@@ -36,8 +37,10 @@ app.use('/api/auth', authRoutes);
 app.use('/api/author', authorRoutes);
 app.use('/api/publisher', publisherRoutes);
 app.use('/api/categories', categoriesRoutes);
-app.use('/api/collection', collectionRoutes);
+app.use('/api/collections', collectionRoutes);
+app.use('/api/comic', comicRoutes);
+
 
 app.listen(port, () => {
-    console.log('You once again have entered the world of survival horror. Good luck! By the way, app is running in port 3000')
+    console.log(`You once again have entered the world of survival horror. Good luck! By the way, app is running in port ${port}` )
 })

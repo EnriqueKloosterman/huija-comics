@@ -1,8 +1,9 @@
-module.exports = (sequelilze, DataTypes) => {
+module.exports = (sequelize, DataTypes) => {
     const alias = 'Image';
     const cols ={
-        images_id: {
-            type: DataTypes.STRING,
+        image_id: {
+            type: DataTypes.UUID,
+            defaultValue: DataTypes.UUIDV4,
             primaryKey: true,
             allowNull: false
         },
@@ -10,25 +11,25 @@ module.exports = (sequelilze, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false
         },
-        id_comic: {
+        comic_id: {
             type: DataTypes.STRING,
             allowNull: false
         }
     };
 
     const config = {
-        tableName: 'images',
-        paranoid: true,
-        timestamps: true,
+        tableName: 'comic_images',
+
+        timestamps: false,
         underscored: true
     };
 
-    const Image = sequelilze.define(alias,cols, config);
+    const Image = sequelize.define(alias,cols, config);
 
     Image.associate = models => {
         Image.belongsTo(models.Comic, {
             as: 'comic',
-            foreignKey: 'id_comic'
+            foreignKey: 'comic_id'
         })
     }
 

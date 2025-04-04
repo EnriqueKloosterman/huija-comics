@@ -11,11 +11,11 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false
         },
-        id_user: {
+        user_id: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        id_comic: {
+        comic_id: {
             type: DataTypes.STRING,
             allowNull: false
         }
@@ -34,11 +34,11 @@ module.exports = (sequelize, DataTypes) => {
     Comments.associate = function(models){
         Comments.belongsTo(models.User, {
             as: 'user',
-            foreignKey: 'id_user'
+            foreignKey: 'user_id'
         });
         Comments.belongsTo(models.Comic, {
             as: 'comic',
-            foreignKey: 'id_comic'
+            foreignKey: 'comic_id'
         });
     };
 

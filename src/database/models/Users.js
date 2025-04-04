@@ -43,15 +43,15 @@ module.exports = (sequelize, DataTypes) => {
     User.associate = models => {
         User.hasMany(models.Likes, {
             as: 'likes',
-            foreignKey: 'id_user'
+            foreignKey: 'user_id'
         });
         User.hasMany(models.Comments, {
             as: 'comments',
-            foreignKey: 'id_user'
+            foreignKey: 'user_id'
         });
         User.hasMany(models.Favorites, {
             as: 'favorites',
-            foreignKey: 'id_user'
+            foreignKey: 'user_id'
         });
     }
     return User;

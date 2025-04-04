@@ -1,8 +1,5 @@
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating user: ReferenceError: User is not defined","timestamp":"2025-03-25 14:49:51"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving publisher: WHERE parameter \"publisher_id\" has invalid \"undefined\" value","timestamp":"2025-03-27 09:53:29"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error deleting publisher: Pubblisher is not defined","timestamp":"2025-03-27 10:11:29"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error deleting category: category_name is not defined","timestamp":"2025-03-28 09:54:29"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collection_name is not defined","timestamp":"2025-03-28 18:05:00"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collection_name is not defined","timestamp":"2025-03-28 18:07:15"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collecition is not defined","timestamp":"2025-03-28 18:09:26"}
-{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error retrieving collection: ReferenceError: collecition is not defined","timestamp":"2025-03-28 18:10:22"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Cannot read properties of undefined (reading 'findAll')","timestamp":"2025-04-03 12:04:49"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Cannot add or update a child row: a foreign key constraint fails (`huijav2`.`comic_authors`, CONSTRAINT `comic_authors_ibfk_2` FOREIGN KEY (`author_id`) REFERENCES `authors` (`author_id`) ON DELETE CASCADE)","timestamp":"2025-04-03 12:06:49"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Cannot add or update a child row: a foreign key constraint fails (`huijav2`.`comic_authors`, CONSTRAINT `comic_authors_ibfk_2` FOREIGN KEY (`author_id`) REFERENCES `authors` (`author_id`) ON DELETE CASCADE)","timestamp":"2025-04-03 12:09:12"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Validation error","timestamp":"2025-04-03 12:16:20"}
+{"label":"Express","level":"\u001b[31merror\u001b[39m","message":"Error creating comic: Validation error","timestamp":"2025-04-03 12:19:39"}

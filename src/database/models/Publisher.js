@@ -24,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
     Publisher.associate = models => {
         Publisher.hasMany(models.Comic, {
             as: 'comics',
-            foreignKey: 'id_publisher'
+            foreignKey: 'publisher_id'
         });
     }
     return Publisher

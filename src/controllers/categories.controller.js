@@ -3,7 +3,6 @@ const db = require('../database/models')
 const Category = db.Category;
 const { v4:uuidv4 } = require('uuid');
 const logger = require('../utils/logger');
-const { log } = require('winston');
 
 const categoriesController = {
     // Creates a new Category

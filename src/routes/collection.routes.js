@@ -5,7 +5,7 @@ const collectionController = require('../controllers/collections.controller')
 
 router.post('/create', upload.single('collection_image'), collectionController.create)
 router.get('/collections', collectionController.getAllCollections);
-router.get('/collections/:collection_id', collectionController.getCollectionById);
+router.get('/collection/:collection_id', collectionController.getCollectionById);
 router.patch('/update/:collection_id', upload.single('collection_image'), collectionController.updateCollection);
 router.delete('/delete/:collection_id', collectionController.deleteCollection);
 

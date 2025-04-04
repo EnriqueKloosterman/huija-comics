@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
         comic_title: {
             type: DataTypes.STRING,
             allowNull: false
-        },   
+        }
     }
 
     // COnfiguración del modelo
@@ -29,40 +29,40 @@ module.exports = (sequelize, DataTypes) => {
         Comic.belongsToMany(models.Author, {
             as: 'authors',
             through: 'comic_authors',
-            foreignKey: 'id_comic',
-            otherKey: 'id_author',
+            foreignKey: 'comic_id',
+            otherKey: 'author_id',
             timestamps: false
         });
         Comic.belongsToMany(models.Category, {
             as: 'categories',
             through: 'comic_categories',
-            foreignKey: 'id_comic',
-            otherKey: 'id_category',
+            foreignKey: 'comic_id',
+            otherKey: 'category_id',
             timestamps: false
         })
         Comic.hasMany(models.Image, {
-            as: 'images',
-            foreignKey: 'id_comic'
+            as: 'comic_images',
+            foreignKey: 'comic_id'
         });
         Comic.belongsTo(models.Publisher, {
             as: 'publisher',
-            foreignKey: 'id_publisher'
+            foreignKey: 'publisher_id'
         });
         Comic.belongsTo(models.ComicsCollection, {
             as: 'comic_collections',
-            foreignKey: 'id_collection'
+            foreignKey: 'collection_id'
         });
         Comic.hasMany(models.Comments, {
             as: 'comments',
-            foreignKey: 'id_comic'
+            foreignKey: 'comic_id'
         }),
         Comic.hasMany(models.Likes, {
             as: 'likes',
-            foreignKey: 'id_comic'
+            foreignKey: 'comic_id'
         }),
         Comic.hasMany(models.Favorites, {
             as: 'favorites',
-            foreignKey: 'id_comic'
+            foreignKey: 'comic_id'
         })
     };
     return Comic;

@@ -33,8 +33,8 @@ module.exports =(sequelize, DataTypes) => {
         Author.belongsToMany(models.Comic, {
             as: 'comics',
             through: 'comic_authors',
-            foreignKey: 'id_author',
-            otherKey: 'id_comic',
+            foreignKey: 'author_id',
+            otherKey: 'comic_id',
             timestamps: false
         })
     }

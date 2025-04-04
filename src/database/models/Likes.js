@@ -7,11 +7,11 @@ module.exports = (sequelize, DataTypes) =>  {
             primaryKey: true,
             allowNull: false
         },
-        id_user: {
+        user_id: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        id_comic: {
+        comic_id: {
             type: DataTypes.STRING,
             allowNull: false
         }
@@ -32,11 +32,11 @@ module.exports = (sequelize, DataTypes) =>  {
     Likes.associate = function(models) {
         Likes.belongsTo(models.User, {
             as: 'users',
-            foreignKey: 'id_user'
+            foreignKey: 'user_id'
         });
         Likes.belongsTo(models.Comic, {
             as: 'comic',
-            foreignKey: 'id_comic'
+            foreignKey: 'comic_id'
         });
     };
 

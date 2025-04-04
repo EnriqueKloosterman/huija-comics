@@ -18,8 +18,8 @@ function folderToSend(req) {
     if (url.includes('/comic') && method === 'POST'  || method === 'PATCH') {
         return 'comic-pages';
     }
-    if (url.includes('/collection') && method === 'POST'  || method === 'PATCH') {
-        return 'banner';
+    if (url.includes('/collections') && method === 'POST'  || method === 'PATCH') {
+        return 'collection_banner';
     }
     throw new Error(`No folder specified for URL: ${url} and method: ${method}`);
 }

@@ -32,7 +32,7 @@ module.exports = (sequelize, DataTypes) => {
     ComicsCollection.associate = models => {
         ComicsCollection.hasMany(models.Comic, {
             as: 'comics',
-            foreignKey: 'id_collection'
+            foreignKey: 'collection_id'
         })
     }
     return ComicsCollection;

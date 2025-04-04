@@ -58,6 +58,7 @@ const collectionController = {
             return res.status(500).json({ message: 'Error retrieving collection' })
         }
     },
+    //TODO: modificar el Update para que lea la imagen del body y no solo del file.path
     // Update a collection
     updateCollection: async (req, res) => {
         const { collection_id } = req.params

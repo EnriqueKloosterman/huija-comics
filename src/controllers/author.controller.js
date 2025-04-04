@@ -61,19 +61,23 @@ const authorController = {
     //Modifica los datos del autor
     updateAuthor: async (req, res) => {
         const { author_id } = req.params;
-        const { author_name, author_bio } = req.body;
-        const author_image = req.file.path;
+        const { author_name, author_bio, author_image: exixtingImage } = req.body;
+
         try{
             const author = await Author.findOne({ where: {author_id}});
             if(!author) {
                 logger.warn(`Author with id ${author_id} not found`);
                 return res.status(404).json({message: 'Author not found'});
             }
-            await Author.update({
+            const updateData = {
                 author_name,
                 author_bio,
-                author_image
-            }, { where: {author_id}});
+                author_image: exixtingImage 
+            };
+            if (req.file) {
+                updateData.author_image = req.file.path;
+            };
+            await Author.update(updateData, { where: {author_id}});
             logger.info(`Author with id ${author_id} updated successfully`);
             res.status(200).json({message: 'Author updated successfully'});
         } catch (error) {
