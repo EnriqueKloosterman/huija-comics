@@ -77,7 +77,7 @@ const comicController = {
       return res.status(500).json({ error: "Error interno del servidor" });
     }
   },
-
+  // Trae todos los comics con sus asociaciones
   getAllComics: async (req, res) => {
     try {
       const comics = await Comic.findAll({
@@ -116,7 +116,7 @@ const comicController = {
       res.status(500).json({ message: "Error interno del servidor" });
     }
   },
-
+  // Trae un comic por su ID 
   getComicById: async (req, res) => {
     try {
       const { comic_id } = req.params;
@@ -163,6 +163,7 @@ const comicController = {
       res.status(500).json({ message: "Error interno del servidor" });
     }
   },
+  // Hace un soft delete del comic por su id
   deleteComic: async (req, res) => {
     const { comic_id } = req.params;
 
