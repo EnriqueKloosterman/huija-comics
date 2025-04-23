@@ -8,7 +8,7 @@ jest.mock('../src/utils/logger');
 jest.mock('uuid');
 
 describe('authorController.create', () => {
-    let rew, res;
+    let req, res;
 
     beforeEach(() => {
         req = {
@@ -31,7 +31,7 @@ describe('authorController.create', () => {
         jest.clearAllMocks();
     });
 
-    test('debe retornar 400 si el autor existe', async () => {
+    it('debe retornar 400 si el autor existe', async () => {
         db.Author.findOne.mockResolvedValue({ id: 1 });
 
         await authorController.create(req, res);
