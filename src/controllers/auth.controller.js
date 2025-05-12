@@ -4,6 +4,7 @@ const User = db.User
 const { v4:uuidv4 } = require('uuid');
 const bcrypt = require('bcryptjs');
 const logger = require('../utils/logger');
+const jwt = require('jsonwebtoken');
 
 const authController = {
     register: async (req, res) => {
@@ -31,6 +32,51 @@ const authController = {
         } catch (error) {
             logger.error(`Error creating user: ${error}`)
             res.status(500).json({message: 'Error creating user', error});
+        }
+    },
+
+    login: async (req, res) => {
+        const { user_email, user_password } = req.body;
+
+        try {
+            const user = await User.findOne({ where: { user_email } });
+            if (!user) {
+                logger.warn(`Intento de inicio de sesión fallido: usuario no encontrado - ${user_email}`);
+                return res.status(401).json({ message: 'Credenciales inválidas' });
+            }
+
+            const isValidPassword = bcrypt.compareSync(user_password, user.user_password);
+
+            if (!isValidPassword) {
+                logger.warn(`Intento de inicio de sesión fallido: contraseña incorrecta - ${user_email}`);
+                return res.status(401).json({ message: 'Credenciales inválidas' });
+            }
+
+            const token = jwt.sign(
+                { 
+                    user_id: user.user_id,
+                    user_email: user.user_email,
+                    user_role: user.user_role 
+                },
+                process.env.JWT_SECRET,
+                { expiresIn: '24h' }
+            );
+            
+            logger.info(`Usuario conectado exitosamente: ${user_email}`);
+            res.status(200).json({
+                message: 'Inicio de sesión exitoso',
+                token,
+                user: {
+                    user_id: user.user_id,
+                    user_name: user.user_name,
+                    user_email: user.user_email,
+                    user_role: user.user_role,
+                    user_image: user.user_image
+                }
+            });
+        } catch (error) {
+            logger.error(`Error en el inicio de sesión: ${error}`);
+            res.status(500).json({ message: 'Error en el servidor', error });
         }
     }
 }
