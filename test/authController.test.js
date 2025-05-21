@@ -182,3 +182,115 @@ describe('authController.login', () => {
         }));
     });
 });
+
+describe('authController.updateUser', () => {
+    let req, res;
+
+    beforeEach(() => {
+        req = {
+            params: {
+                user_id: '1234'
+            },
+            body: {
+                user_name: 'Updated Name',
+                user_email: 'updated@example.com',
+                user_image: 'existing/path.jpg'
+            },
+            file: {
+                path: 'new/path/image.jpg'
+            }
+        };
+
+        res = {
+            status: jest.fn().mockReturnThis(),
+            json: jest.fn()
+        };
+    });
+
+    afterEach(() => {
+        jest.clearAllMocks();
+    });
+
+    test('debe retornar 404 si el usuario no existe', async () => {
+        db.User.findByPk.mockResolvedValue(null);
+
+        await authController.updateUser(req, res);
+
+        expect(db.User.findByPk).toHaveBeenCalledWith('1234');
+        expect(logger.warn).toHaveBeenCalled();
+        expect(res.status).toHaveBeenCalledWith(404);
+        expect(res.json).toHaveBeenCalledWith({ 
+            message: 'Usuario no encontrado' 
+        });
+    });
+
+    test('debe actualizar el usuario con nueva imagen y retornar 200', async () => {
+        const mockUser = {
+            user_id: '1234',
+            user_name: 'Old Name',
+            user_email: 'old@example.com',
+            user_image: 'old/path.jpg'
+        };
+
+        db.User.findByPk.mockResolvedValue(mockUser);
+        db.User.update.mockResolvedValue([1]);
+
+        await authController.updateUser(req, res);
+
+        expect(db.User.update).toHaveBeenCalledWith({
+            user_name: 'Updated Name',
+            user_email: 'updated@example.com',
+            user_image: 'new/path/image.jpg'
+        }, { 
+            where: { user_id: '1234' } 
+        });
+
+        expect(logger.info).toHaveBeenCalled();
+        expect(res.status).toHaveBeenCalledWith(200);
+        expect(res.json).toHaveBeenCalledWith({ 
+            message: 'Usuario actualizado exitosamente' 
+        });
+    });
+
+    test('debe actualizar el usuario sin nueva imagen y retornar 200', async () => {
+        const mockUser = {
+            user_id: '1234',
+            user_name: 'Old Name',
+            user_email: 'old@example.com',
+            user_image: 'old/path.jpg'
+        };
+
+        req.file = undefined;
+
+        db.User.findByPk.mockResolvedValue(mockUser);
+        db.User.update.mockResolvedValue([1]);
+
+        await authController.updateUser(req, res);
+
+        expect(db.User.update).toHaveBeenCalledWith({
+            user_name: 'Updated Name',
+            user_email: 'updated@example.com',
+            user_image: 'existing/path.jpg'
+        }, { 
+            where: { user_id: '1234' } 
+        });
+
+        expect(logger.info).toHaveBeenCalled();
+        expect(res.status).toHaveBeenCalledWith(200);
+        expect(res.json).toHaveBeenCalledWith({ 
+            message: 'Usuario actualizado exitosamente' 
+        });
+    });
+
+    test('debe retornar 500 si ocurre un error', async () => {
+        db.User.findByPk.mockRejectedValue(new Error('DB error'));
+
+        await authController.updateUser(req, res);
+
+        expect(logger.error).toHaveBeenCalled();
+        expect(res.status).toHaveBeenCalledWith(500);
+        expect(res.json).toHaveBeenCalledWith(expect.objectContaining({
+            message: 'Error al actualizar el usuario'
+        }));
+    });
+});

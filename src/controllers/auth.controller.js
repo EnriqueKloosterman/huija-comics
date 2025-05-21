@@ -78,7 +78,34 @@ const authController = {
             logger.error(`Error en el inicio de sesión: ${error}`);
             res.status(500).json({ message: 'Error en el servidor', error });
         }
-    }
+    },
+    // Update user
+    updateUser: async (req, res) => {
+        const { user_id } = req.params;
+        const { user_name, user_email, user_image: existinImage} = req.body;
+
+        try {
+            const user = await User.findByPk(user_id);
+
+            if (!user) {
+                logger.warn(`Usuario no encontrado: ${user_id}`);
+                return res.status(404).json({ message: 'Usuario no encontrado' });
+            }
+            const updateData = {
+                user_name,
+                user_email,
+                user_image: existinImage
+            };
+            if(req.file) {
+                updateData.user_image = req.file.path;
+            };
+            await User.update(updateData, { where: { user_id } });            logger.info(`Usuario actualizado exitosamente: ${user_id}`);
+            res.status(200).json({ message: 'Usuario actualizado exitosamente' });
+        } catch (error) {
+            logger.error(`Error al actualizar el usuario: ${error}`);
+            res.status(500).json({ message: 'Error al actualizar el usuario', error });
+        }
+    },
 }
 
 module.exports = authController;
