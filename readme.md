@@ -28,7 +28,7 @@ Huija Comics es una API RESTful desarrollada con Express.js que permite gestiona
 
 1. Clonar el repositorio:
 ```bash
-git clone [url-del-repositorio]
+git clone https://github.com/EnriqueKloosterman/huija-comics.git
 cd huija-comics
 ```
 
